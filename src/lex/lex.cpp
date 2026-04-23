@@ -1,4 +1,4 @@
-#include "pl/lex.h"
+#include "pl/lex/lex.h"
 
 namespace pl::lex {
 void lex(std::string_view source_text)

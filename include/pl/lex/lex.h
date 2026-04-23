@@ -5,4 +5,4 @@
 namespace pl::lex {
 void lex(std::string_view source_text);
 }
-#endif // PL_LEX_H
+#endif  // PL_LEX_H

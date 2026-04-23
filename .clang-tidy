@@ -2,7 +2,11 @@ Checks: "cppcoreguidelines-*,performance-*,readability-*"
 CheckOptions:
   - key: "readability-identifier-naming.DefaultCase"
     value: lower_case
-  - key: "readability-identifier-naming.ClassCase"
+  - key: "readability-identifier-naming.StructCase"
+    value: CamelCase
+  - key: "readability-identifier-naming.EnumCase"
+    value: CamelCase
+  - key: "readability-identifier-naming.EnumConstantCase"
     value: CamelCase
   - key: "readability-identifier-naming.MemberSuffix"
     value: _
